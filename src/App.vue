@@ -28,6 +28,6 @@ function myBusinessLogic () {
   </template>
   -->
   <button
-    @click="myHandler(undefined, undefined, undefined)"
+    @click="() => myHandler(undefined, undefined, undefined)"
   />
 </template>
